@@ -1,0 +1,15 @@
+﻿using MyMobilProject.ViewModels;
+using System.ComponentModel;
+using Xamarin.Forms;
+
+namespace MyMobilProject.Views
+{
+    public partial class ItemDetailPage : ContentPage
+    {
+        public ItemDetailPage()
+        {
+            InitializeComponent();
+            BindingContext = new ItemDetailViewModel();
+        }
+    }
+}
